@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar_actionbar"
+    android:layout_width="match_parent"
+    android:layout_height="?android:actionBarSize"
+    android:layout_gravity="start"
+    android:background="@color/material_gray_900"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    app:navigationIcon="@drawable/ic_arrow_back_24dp">
+
+    <com.mmdev.cyberquiz.custom_design.Custom_TextView_AvenirNext_DemiBold
+        android:id="@+id/tv_Hints"
+        android:visibility="gone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:drawableEnd="@drawable/toolbar_hints"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="@color/white_text"
+        android:textSize="@dimen/toolbar_hints_textSize"/>
+
+    <com.mmdev.cyberquiz.custom_design.Custom_TextView_AvenirNext_DemiBold
+        android:id="@+id/tv_CurrentWindow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="CHOOSE GAME"
+        android:textAlignment="center"
+        android:textColor="@color/material_gray_500"
+        android:textSize="@dimen/toolbar_hints_textSize"/>
+
+
+</androidx.appcompat.widget.Toolbar>

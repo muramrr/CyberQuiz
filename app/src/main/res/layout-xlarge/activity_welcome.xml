@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.mmdev.cyberquiz.Activity_Welcome">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="355dp"
+        android:layout_height="355dp"
+        app:srcCompat="@drawable/main_logo"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="16dp"/>
+
+    <com.mmdev.cyberquiz.custom_design.Custom_TextView_AvenirNext_DemiBold
+        android:id="@+id/textViewAvenir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME!"
+        android:textSize="50sp"
+        android:textColor="#ffffff"
+        android:shadowColor="#66333333"
+        android:shadowDx="7"
+        android:shadowDy="7"
+        android:shadowRadius="10"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        android:layout_marginTop="30dp"
+        />
+
+    <com.mmdev.cyberquiz.custom_design.Custom_Button_AvenirNext_Medium
+        android:id="@+id/play_but"
+        android:layout_width="480dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="28dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="1dp"
+        android:gravity="center"
+        android:text="GUEST"
+        android:textAlignment="center"
+        android:textColor="@color/white_text"
+        android:background="@drawable/main_buttons"
+        android:textSize="60sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAvenir"
+        />
+
+    <com.mmdev.cyberquiz.custom_design.Custom_Button_AvenirNext_Medium
+        android:id="@+id/login_but"
+        android:layout_width="480dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="1dp"
+        android:gravity="center"
+        android:text="LOG IN"
+        android:textAlignment="center"
+        android:textColor="@color/white_text"
+        android:background="@drawable/main_buttons"
+        android:textSize="60sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play_but"/>
+
+    <com.mmdev.cyberquiz.custom_design.Custom_Button_AvenirNext_Medium
+        android:onClick="register_click"
+        android:id="@+id/register_but"
+        android:layout_width="480dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="0dp"
+        android:paddingTop="1dp"
+        android:gravity="center"
+        android:text="REGISTER"
+        android:textAlignment="center"
+        android:textColor="@color/white_text"
+        android:background="@drawable/main_buttons"
+        android:textSize="60sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_but"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/main_or"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/register_but"
+        android:layout_marginTop="25dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="write_answer_image_width">240dp</dimen>
+    <dimen name="write_answer_image_height">200dp</dimen>
+    <dimen name="tvLevel_num_text_size">20sp</dimen>
+    <dimen name="iv_Locked_wd">60dp</dimen>
+    <dimen name="iv_Locked_hg">60dp</dimen>
+    <dimen name="tv_Locked_text_size">23sp</dimen>
+    <dimen name="fragment_main_buts_width">220dp</dimen>
+    <dimen name="fragment_main_buts_height">50dp</dimen>
+    <dimen name="toolbar_hints_textSize">28sp</dimen>
+    <dimen name="dialog_true_revealed_answer">55sp</dimen>
+</resources>

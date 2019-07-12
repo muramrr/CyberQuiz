@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:background="@drawable/dialog_reg_background">
+
+
+    <ImageView
+        android:id="@+id/profile_photo_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/photo_profile_reg"/>
+
+    <com.mmdev.cyberquiz.custom_design.Custom_EditText_AvenirNext_Regular
+        android:id="@+id/reg_name"
+        android:textColor="#28c2c1"
+        android:textSize="25sp"
+        android:hint="John Doe"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@drawable/icon_name"
+        android:background="@drawable/dialog_reg_edittext"/>
+
+    <com.mmdev.cyberquiz.custom_design.Custom_EditText_AvenirNext_Regular
+        android:id="@+id/reg_email"
+        android:textColor="#28c2c1"
+        android:textSize="25sp"
+        android:hint="johndoe@email.com "
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:drawablePadding="3dp"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/icon_mail"
+        android:background="@drawable/dialog_reg_edittext"/>
+
+    <com.mmdev.cyberquiz.custom_design.Custom_EditText_AvenirNext_Regular
+        android:id="@+id/reg_pass"
+        android:textColor="#28c2c1"
+        android:textSize="25sp"
+        android:hint="*********"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:drawablePadding="3dp"
+        android:paddingRight="10dp"
+        android:drawableLeft="@drawable/icon_passwrd"
+        android:background="@drawable/dialog_reg_edittext"/>
+
+    <com.mmdev.cyberquiz.custom_design.Custom_Button_AvenirNext_Medium
+        android:background="@drawable/dialog_reg_edittext"
+        android:onClick="createAccount"
+        android:id="@+id/register_but"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="50dp"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        android:textColor="#28c2c1"
+        android:textSize="32sp"/>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.mmdev.cyberquiz.custom_design.Custom_TextView_AvenirNext_DemiBold
+        android:id="@+id/tv_Letters"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/white_text"
+        android:text="1"
+        android:background="@drawable/recycle_buttons"
+    />
+</LinearLayout>

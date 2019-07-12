@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/material_gray_850">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:id="@+id/stats">
+        <com.mmdev.cyberquiz.custom_design.Custom_TextView_AvenirNext_DemiBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STATS"
+            android:textSize="40sp"
+            android:textColor="@color/material_white_1000"/>
+
+        <com.mmdev.cyberquiz.custom_design.Custom_TextView_AvenirNext_DemiBold
+            android:id="@+id/stats_completed_players"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Completed players: 0/400"
+            android:textColor="@color/material_white_1000"
+            android:textSize="20sp"/>
+
+        <!--<com.mmdev.cyberquiz.custom_design.Custom_TextView_AvenirNext_DemiBold-->
+            <!--android:id="@+id/stats_completed_levels"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Completed levels: 0/400"-->
+            <!--android:textColor="@color/material_white_1000"-->
+            <!--android:textSize="20sp"-->
+            <!--android:layout_below="@id/stats_completed_players"-->
+            <!--android:layout_marginStart="30dp"/>-->
+
+        <com.mmdev.cyberquiz.custom_design.Custom_TextView_AvenirNext_DemiBold
+            android:id="@+id/stats_hints_used"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hints used: 0"
+            android:textColor="@color/material_white_1000"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="end"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/stats"
+        android:id="@+id/credits">
+        <com.mmdev.cyberquiz.custom_design.Custom_TextView_AvenirNext_DemiBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="SETTINGS"
+            android:textSize="40sp"
+            android:textColor="@color/material_white_1000"/>
+
+        <com.mmdev.cyberquiz.custom_design.Custom_Button_AvenirNext_Medium
+            android:onClick="rate_Click"
+            android:id="@+id/rate_us"
+            android:layout_marginBottom="20dp"
+            android:layout_width="@dimen/fragment_main_buts_width"
+            android:layout_height="wrap_content"
+            android:text="RATE this app"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:background="@drawable/main_buttons"
+            android:textSize="22sp"/>
+
+        <com.mmdev.cyberquiz.custom_design.Custom_Button_AvenirNext_Medium
+            android:onClick="reset_progress"
+            android:id="@+id/reset_but"
+            android:layout_marginBottom="20dp"
+            android:layout_width="@dimen/fragment_main_buts_width"
+            android:layout_height="wrap_content"
+            android:text="RESET Progress"
+            android:textAlignment="center"
+            android:textColor="@color/white_text"
+            android:background="@drawable/main_buttons"
+            android:textSize="22sp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

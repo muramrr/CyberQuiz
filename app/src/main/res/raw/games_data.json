@@ -1,0 +1,190 @@
+{
+  "csgo": {
+    "level1": {
+      "playersNames": [
+        "AdreN",
+        "s1mple",
+        "coldzera",
+        "Xyp9x",
+        "snax",
+        "FalleN",
+        "rain",
+        "dupreeh",
+        "k0nfig",
+        "kennys",
+        "Kjaerbye",
+        "NiKo",
+        "olofmeister",
+        "boltz",
+        "dev1ce",
+        "Elige",
+        "Hobbit",
+        "oskar",
+        "GuardiaN",
+        "fer",
+        "legija",
+        "logan",
+        "krimz",
+        "lucky",
+        "luzuh",
+        "magisk",
+        "kzy"
+      ],
+      "playersImgs": [
+        "csgo_level01_adren",
+        "csgo_level01_s1mple",
+        "csgo_level01_coldzera",
+        "csgo_level01_xyp9x",
+        "csgo_level01_snax",
+        "csgo_level01_fallen",
+        "csgo_level01_rain",
+        "csgo_level01_dupreeh",
+        "csgo_level01_k0nfig",
+        "csgo_level01_kennys",
+        "csgo_level01_kjaerbye",
+        "csgo_level01_niko",
+        "csgo_level01_olofmeister",
+        "csgo_level01_boltz",
+        "csgo_level01_dev1ce",
+        "csgo_level01_elige",
+        "csgo_level01_hobbit",
+        "csgo_level01_oskar",
+        "csgo_level01_guardian",
+        "csgo_level01_fer",
+        "csgo_level01_legija",
+        "csgo_level01_logan",
+        "csgo_level01_krimz",
+        "csgo_level01_lucky",
+        "csgo_level01_luzuh",
+        "csgo_level01_magisk",
+        "csgo_level01_kzy"
+      ]
+    },
+    "level2": {
+      "playersNames": [
+        "allu",
+        "styko",
+        "apex",
+        "xizt",
+        "dennis",
+        "nex",
+        "flusha",
+        "dragonfly",
+        "hunden",
+        "k1to",
+        "amanek",
+        "devoduvek",
+        "percy",
+        "rpk",
+        "denis",
+        "aleksib",
+        "tabsen",
+        "tizian",
+        "happy",
+        "bodyy",
+        "zywoo"
+      ],
+      "playersImgs": [
+        "csgo_level02_allu",
+        "csgo_level02_styko",
+        "csgo_level02_apex",
+        "csgo_level02_xizt",
+        "csgo_level02_dennis",
+        "csgo_level02_nex",
+        "csgo_level02_flusha",
+        "csgo_level02_dragonfly",
+        "csgo_level02_hunden",
+        "csgo_level02_k1to",
+        "csgo_level02_amanek",
+        "csgo_level02_devoduvek",
+        "csgo_level02_percy",
+        "csgo_level02_rpk",
+        "csgo_level02_denis",
+        "csgo_level02_aleksib",
+        "csgo_level02_tabsen",
+        "csgo_level02_tizian",
+        "csgo_level02_happy",
+        "csgo_level02_bodyy",
+        "csgo_level02_zywoo"
+      ]
+    },
+    "level3": {
+      "playersNames": [
+        "xseven",
+        "karrigan",
+        "twist",
+        "to1nou",
+        "sunny",
+        "stfn",
+        "natosaphix",
+        "brollan",
+        "smooya",
+        "aerial",
+        "sergej",
+        "spiidi",
+        "nbk-",
+        "syrson",
+        "torben",
+        "jw",
+        "jackz",
+        "gla1ve",
+        "stavn",
+        "ecfn",
+        "davidp",
+        "crisby",
+        "ropz",
+        "faven"
+      ],
+      "playersImgs": [
+        "csgo_level03_xseven",
+        "csgo_level03_karrigan",
+        "csgo_level03_twist",
+        "csgo_level03_to1nou",
+        "csgo_level03_sunny",
+        "csgo_level03_stfn",
+        "csgo_level03_natosaphix",
+        "csgo_level03_brollan",
+        "csgo_level03_smooya",
+        "csgo_level03_aerial",
+        "csgo_level03_sergej",
+        "csgo_level03_piidi",
+        "csgo_level03_nbk",
+        "csgo_level03_syrson",
+        "csgo_level03_torben",
+        "csgo_level03_jw",
+        "csgo_level03_jackz",
+        "csgo_level03_gla1ve",
+        "csgo_level03_stavn",
+        "csgo_level03_ecfn",
+        "csgo_level03_davidp",
+        "csgo_level03_crisby",
+        "csgo_level03_ropz",
+        "csgo_level03_faven"
+      ]
+    }
+  },
+  "dota": {
+    "level1": {
+      "playersNames": [
+      ],
+      "playersImgs": [
+      ]
+    }
+  },
+  "pubg": {
+    "level1": {
+      "playersNames": [
+      ],
+      "playersImgs": [
+      ]
+    }
+  },
+  "lol": {
+    "level1": {
+      "playersNames": [
+      ],
+      "playersImgs": [
+      ]
+    }
+  }
+}

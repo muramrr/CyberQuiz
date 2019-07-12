@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="write_answer_image_width">272dp</dimen>
+    <dimen name="write_answer_image_height">304dp</dimen>
+    <dimen name="tvLevel_num_text_size">25sp</dimen>
+    <dimen name="iv_Locked_wd">100dp</dimen>
+    <dimen name="iv_Locked_hg">100dp</dimen>
+    <dimen name="tv_Locked_text_size">27sp</dimen>
+    <dimen name="toolbar_hints_textSize">30sp</dimen>
+    <dimen name="dialog_true_revealed_answer">60sp</dimen>
+</resources>

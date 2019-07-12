@@ -1,0 +1,87 @@
+import org.moallemi.gradle.internal.VersionCodeType
+
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+apply plugin: 'org.moallemi.advanced-build-version'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'private'
+            keyPassword 'private'
+            storeFile file('private')
+            storePassword 'private'
+        }
+    }
+    advancedVersioning {
+        codeOptions {
+            versionCodeType VersionCodeType.AUTO_INCREMENT_ONE_STEP
+        }
+        nameOptions {
+            versionMajor 1
+            versionMinor 1
+            versionPatch 1
+            versionBuild 1
+        }
+        outputOptions {
+            renameOutput true
+            nameFormat 'CyberQuiz-${buildType}-${versionName}-${versionCode}'
+        }
+    }
+    def appVersionName = advancedVersioning.versionName
+    def appVersionCode = advancedVersioning.versionCode
+
+    defaultConfig {
+        applicationId "com.mmdev.cyberquiz"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode = appVersionCode
+        versionName = appVersionName
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        renderscriptTargetApi 28
+        renderscriptSupportModeEnabled true
+    }
+    buildTypes {
+        release {
+            lintOptions {
+                checkReleaseBuilds false
+                abortOnError false
+            }
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+    compileSdkVersion 28
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.google.android.material:material:1.0.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+    //visual
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.0-alpha3'
+    //implementation 'de.hdodenhof:circleimageview:3.0.0'
+    //implementation 'fr.tvbarthel.blurdialogfragment:lib:2.2.0'
+    implementation 'com.github.aliab:circular-music-progressbar:v1.4.0'
+    //implementation 'com.orhanobut:dialogplus:1.11@aar'
+    implementation 'com.google.android:flexbox:1.1.0'
+    implementation 'com.github.leinardi:FloatingActionButtonSpeedDial:2.0.1'
+    implementation 'com.romandanylyk:pageindicatorview:1.0.3@aar'
+    implementation 'com.akexorcist:RoundCornerProgressBar:2.0.3'
+    //code
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0'
+    //implementation 'com.facebook.android:facebook-android-sdk:4.41.0'
+    implementation 'com.google.firebase:firebase-auth:16.2.0'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    testImplementation 'junit:junit:4.12'
+    //implementation 'com.jakewharton:butterknife:9.0.0-rc2'
+    //annotationProcessor 'com.jakewharton:butterknife-compiler:9.0.0-rc2'
+
+    api 'com.google.guava:guava:27.0.1-android' //не менять на ...-jre !!!!!!!!
+}

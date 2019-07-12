@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="write_answer_image_width">230dp</dimen>
+    <dimen name="write_answer_image_height">190dp</dimen>
+    <dimen name="dialog_true_revealed_answer">50sp</dimen>
+    <dimen name="toolbar_hints_textSize">26sp</dimen>
+</resources>

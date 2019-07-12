@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@color/material_gray_850">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/credits_logo"
+        android:scaleType="fitStart"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/credits_img"/>
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/credits_logo"
+        android:background="@color/white_text"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_logo"
+        android:id="@+id/ivMAIN_LOGO"
+        android:layout_below="@id/credits_logo"
+        android:layout_centerHorizontal="true"/>
+
+    <com.mmdev.cyberquiz.custom_design.Custom_Button_AvenirNext_Medium
+        android:id="@+id/play_but"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/fragment_main_buts_width"
+        android:layout_height="@dimen/fragment_main_buts_height"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/ivMAIN_LOGO"
+        android:text="PLAY"
+        android:onClick="play_Click"
+        android:textAlignment="center"
+        android:textColor="@color/white_text"
+        android:background="@drawable/main_buttons"
+        android:textSize="25sp"/>
+
+    <com.mmdev.cyberquiz.custom_design.Custom_Button_AvenirNext_Medium
+        android:id="@+id/options_but"
+        android:layout_centerHorizontal="true"
+        android:layout_width="@dimen/fragment_main_buts_width"
+        android:layout_height="@dimen/fragment_main_buts_height"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/play_but"
+        android:text="OPTIONS"
+        android:onClick="options_Click"
+        android:textAlignment="center"
+        android:textColor="@color/white_text"
+        android:background="@drawable/main_buttons"
+        android:textSize="25sp"/>
+
+</RelativeLayout>
